@@ -1,12 +1,12 @@
 import React from 'react';
 import PageTitle from '../../Common/PageTitle';
-import Navbar from './Navbar';
+import Header from './Header';
 
 const Home = () => {
     return (
         <div>
             <PageTitle title="Home" />
-            <Navbar />
+            <Header />
             <h1>Hello every one</h1>
         </div>
     );
